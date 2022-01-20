@@ -1,0 +1,4 @@
+[
+{"consent":true,"time":2970,"timeup":false,"stepId":"consent","stageId":"consent","done":true,"player":"465629957675896","stage":{"stage":1,"step":1,"round":1},"timestamp":1642587771900,"session":"room000006","treatment":"pgg"}, 
+{"time":1192,"timeup":false,"stepId":"instructions","stageId":"instructions","done":true,"player":"465629957675896","stage":{"stage":2,"step":1,"round":1},"timestamp":1642587773640,"session":"room000006","treatment":"pgg"}
+]

@@ -1,0 +1,10 @@
+[
+{"time":2851,"timeup":false,"stepId":"gameinstructions","stageId":"gameinstructions","done":true,"player":"979794050668680","stage":{"stage":1,"step":1,"round":1},"timestamp":1642680565010,"session":"room000026","treatment":"standard"}, 
+{"time":4240,"timeup":false,"stepId":"gameinstructions","stageId":"gameinstructions","done":true,"player":"650450485304540","stage":{"stage":1,"step":1,"round":1},"timestamp":1642680566403,"session":"room000026","treatment":"standard"}, 
+{"time":4698,"timeup":false,"stepId":"gameinstructions","stageId":"gameinstructions","done":true,"player":"781517218166393","stage":{"stage":1,"step":1,"round":1},"timestamp":1642680566859,"session":"room000026","treatment":"standard"}, 
+{"time":7056,"timeup":false,"stepId":"gameinstructions","stageId":"gameinstructions","done":true,"player":"906880099075922","stage":{"stage":1,"step":1,"round":1},"timestamp":1642680569549,"session":"room000026","treatment":"standard"}, 
+{"time":4023,"timeup":false,"stepId":"trust","stageId":"trust","done":true,"player":"979794050668680","stage":{"stage":2,"step":1,"round":1},"timestamp":1642680573591,"session":"room000026","treatment":"standard"}, 
+{"time":4411,"timeup":false,"stepId":"trust","stageId":"trust","done":true,"player":"781517218166393","stage":{"stage":2,"step":1,"round":1},"timestamp":1642680573977,"session":"room000026","treatment":"standard"}, 
+{"time":4658,"timeup":false,"stepId":"trust","stageId":"trust","done":true,"player":"650450485304540","stage":{"stage":2,"step":1,"round":1},"timestamp":1642680574226,"session":"room000026","treatment":"standard"}, 
+{"order":[0],"forms":{"trustquestion":{"value":10,"timeBegin":5700,"timeEnd":5957,"id":"trustquestion"}},"missValues":[],"id":"trustquestion","time":7105,"timeup":false,"stepId":"trust","stageId":"trust","done":true,"player":"906880099075922","stage":{"stage":2,"step":1,"round":1},"timestamp":1642680576903,"session":"room000026","treatment":"standard"}
+]

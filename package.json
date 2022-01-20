@@ -1,0 +1,8 @@
+{
+    "name": "finaldraft",
+    "version": "0.0.1",
+    "description": "A survey followed by a public goods game",
+    "author": "Melike <mnazlikaplan@gmail.com>",
+    "license": "MIT/X11",
+    "homepage": "http://nodegame.org"
+}

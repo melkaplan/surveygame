@@ -1,0 +1,7 @@
+[
+{"consent":true,"time":2714,"timeup":false,"stepId":"consent","stageId":"consent","done":true,"player":"627384207039595","stage":{"stage":1,"step":1,"round":1},"timestamp":1642589491295,"session":"room000010","treatment":"pgg"}, 
+{"time":3122,"timeup":false,"stepId":"instructions","stageId":"instructions","done":true,"player":"627384207039595","stage":{"stage":2,"step":1,"round":1},"timestamp":1642589494913,"session":"room000010","treatment":"pgg"}
+][
+{"consent":true,"time":5456,"timeup":false,"stepId":"consent","stageId":"consent","done":true,"player":"947723407018660","stage":{"stage":1,"step":1,"round":1},"timestamp":1642589560147,"session":"room000010","treatment":"pgg"}, 
+{"time":1777,"timeup":false,"stepId":"instructions","stageId":"instructions","done":true,"player":"947723407018660","stage":{"stage":2,"step":1,"round":1},"timestamp":1642589562470,"session":"room000010","treatment":"pgg"}
+]

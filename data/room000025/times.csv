@@ -1,0 +1,9 @@
+"session","treatment","player","stage","step","round","stageId","stepId","timestamp","time"
+"room000025","standard","906880099075922",1,1,1,"consent","consent",1642680207361,2713
+"room000025","standard","906880099075922",2,1,1,"instructions","instructions",1642680231467,23373
+"room000025","standard","906880099075922",3,1,1,"demographics","demographics",1642680275920,44184
+"room000025","standard","906880099075922",4,1,1,"demographics2","demographics2",1642680333919,57708
+"room000025","standard","906880099075922",5,1,1,"self construal","self construal",1642680357002,22862
+"room000025","standard","906880099075922",6,1,1,"blockchainquiz","blockchainquiz",1642680497679,140456
+"room000025","standard","906880099075922",7,1,1,"blockchaininvolvement","blockchaininvolvement",1642680532354,34456
+"room000025","standard","906880099075922",8,1,1,"surveydone","surveydone",1642680547363,14752

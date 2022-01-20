@@ -1,0 +1,5 @@
+"session","treatment","player","stage","step","round","stageId","stepId","timestamp","time"
+"room000023","pgg_bars","339914495225541",1,1,1,"consent","consent",1642609704185,11086
+"room000023","pgg_bars","339914495225541",2,1,1,"instructions","instructions",1642609712845,8193
+"room000023","pgg_bars","339914495225541",3,1,1,"demographics","demographics",1642609761680,48544
+"room000023","pgg_bars","339914495225541",4,1,1,"surveydone","surveydone",1642609780050,18110
