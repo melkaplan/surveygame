@@ -1,5 +1,5 @@
 # finaldraft
-Melike <mnazlikaplan@gmail.com>
+Melike Kaplan <mnazlikaplan@gmail.com>
 
 ## Description
 
