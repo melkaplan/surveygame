@@ -163,16 +163,6 @@
                      },
                      {
                          name: 'CustomInput',
-                         id: 'country',
-                         //what should I keep in mind when changing the id?
-                         mainText: 'Which country or countries do you most identify with culturally?',
-                         width: '95%',
-                         hint: '(If more than one country, order alphabetically ' +
-                             'and seperate with a comma)',
-                         //preprocess: capitalizeInput
-                     },
-                     {
-                         name: 'CustomInput',
                          id: 'language',
                          mainText: 'What language(s) do you speak?',
                          hint: '(if you speak more ' +
@@ -254,22 +244,6 @@
                         ]
                     },
                     {
-                        id: 'ownhouse',
-                        mainText: 'Do you own a house or an apartment?',
-                        choices: [
-                            'Yes', 'No',
-                        ],
-                        shuffleChoices: false
-                    },
-                    {
-                        id: 'owncar',
-                        mainText: 'Do you own a car?',
-                        choices: [
-                            'Yes', 'No',
-                        ],
-                        shuffleChoices: false
-                    },
-                    {
                         id: 'income',
                         mainText: 'What number come closest to your ' +
                             'yearly income?',
@@ -281,17 +255,6 @@
                             .concat(['500+']),
                         shuffleChoices: false,
                         choicesSetSize: 8
-                    },
-                    {
-                        id: 'studentdebt',
-                        mainText: 'Do you have a student debt?',
-                        choices: [
-                            'Yes, and it is large',
-                            'Yes, but it is manageable',
-                            'No, I have paid it off',
-                            'No, I never had it'
-                        ],
-                        shuffleChoices: false
                     },
                     {
                         name: 'ChoiceTableGroup',
@@ -438,17 +401,6 @@
                  forms: [
                      {
                          id: 'quiz1',
-                         mainText: 'True or False: Blockchain is the same as Bitcoin.',
-                         choices: [
-                             'True',
-                             'False',
-                             'I don\'t know'
-                         ],
-                         shuffleChoices: false
-                         // correctChoice: 1
-                     },
-                     {
-                         id: 'quiz2',
                          mainText: 'What is a blockchain?',
                          choices: [
                              'A type of cryptocurrency',
@@ -461,20 +413,7 @@
                          // correctChoice: 2
                      },
                      {
-                         id: 'quiz3',
-                         mainText: 'What does the block in a blockchain consist of?',
-                         choices: [
-                             'Transaction data',
-                             'A hash point',
-                             'A timestamp',
-                             'Transaction data, a hash point and a timestamp',
-                             'I don\'t know'
-                         ],
-                         shuffleChoices: false
-                         // correctChoice: 3
-                     },
-                     {
-                         id: 'quiz4',
+                         id: 'quiz2',
                          mainText: 'Are blockchains fully public (i.e. accessible by everyone)?',
                          choices: [
                              'Yes',
@@ -486,7 +425,7 @@
                          // correctChoice: 2
                      },
                      {
-                         id: 'quiz5',
+                         id: 'quiz3',
                          mainText: 'Decentralized blockchains (like the ones used by Bitcoin) are ‘immutable,’ what does this imply?',
                          choices: [
                              'They cannot be altered',
@@ -498,7 +437,7 @@
                          // correctChoice: 0
                      },
                      {
-                         id: 'quiz6',
+                         id: 'quiz4',
                          mainText: 'If a hacker wanted to alter a blockchain, which percentage of the blocks would they have to alter?',
                          choices: [
                              'Only their copy',
@@ -511,19 +450,7 @@
                          // correctChoice: 1
                      },
                      {
-                         id: 'quiz7',
-                         mainText: 'What is a miner?',
-                         choices: [
-                             'A type of blockchain',
-                             'An algorithm that predicts the next part of the chain',
-                             'A person doing calculations to verify a transaction',
-                             'Computers that validate and process blockchain transactions',
-                             'I don\'t know'
-                         ],
-                         // correctChoice: 3
-                     },
-                     {
-                         id: 'quiz8',
+                         id: 'quiz5',
                          mainText: 'What incentivizes miners to give correct validation of transactions?',
                          choices: [
                              'A nonce',
@@ -535,7 +462,7 @@
                          // correctChoice: 1
                      },
                      {
-                        id: 'quiz9',
+                        id: 'quiz6',
                         mainText: 'What is proof of stake?',
                         choices: [
                             'A certificate needed to use the blockchain',
@@ -547,7 +474,7 @@
                         // correctChoice: 3
                     },
                     {
-                        id: 'quiz10',
+                        id: 'quiz7',
                         mainText: 'What is a smart contract?',
                         choices: [
                             'A digitally written formal employment contract',
@@ -559,7 +486,7 @@
                         // correctChoice: 1
                     },
                     {
-                        id: 'quiz11',
+                        id: 'quiz8',
                         mainText: 'Which of the below is not an attribute of smart contracts?',
                         choices: [
                             'Self-verifying',
@@ -571,7 +498,7 @@
                         // correctChoice: 3
                     },
                     {
-                        id: 'quiz12',
+                        id: 'quiz9',
                         mainText: 'What is a DAO?',
                         choices: [
                             'Decentralized Autonomous Organization',
@@ -583,7 +510,7 @@
                         // correctChoice: 0
                     },
                     {
-                        id: 'quiz13',
+                        id: 'quiz10',
                         mainText: 'Which of the below is not a characteristic of a DAO?',
                         choices: [
                             'Provides flexibility in the design of an organization',
@@ -697,6 +624,80 @@
              node.game.backButton.destroy();
          }
      });
+//Exlcuded Questions:
+     {
+                        id: 'studentdebt',
+                        mainText: 'Do you have a student debt?',
+                        choices: [
+                            'Yes, and it is large',
+                            'Yes, but it is manageable',
+                            'No, I have paid it off',
+                            'No, I never had it'
+                        ],
+                        shuffleChoices: false
+                    },
+                    {
+                         name: 'CustomInput',
+                         id: 'country',
+                         //what should I keep in mind when changing the id?
+                         mainText: 'Which country or countries do you most identify with culturally?',
+                         width: '95%',
+                         hint: '(If more than one country, order alphabetically ' +
+                             'and seperate with a comma)',
+                         //preprocess: capitalizeInput
+                     },
+                      {
+                        id: 'ownhouse',
+                        mainText: 'Do you own a house or an apartment?',
+                        choices: [
+                            'Yes', 'No',
+                        ],
+                        shuffleChoices: false
+                    },
+                    {
+                        id: 'owncar',
+                        mainText: 'Do you own a car?',
+                        choices: [
+                            'Yes', 'No',
+                        ],
+                        shuffleChoices: false
+                    },
+                    {
+                         id: 'quiz1',
+                         mainText: 'True or False: Blockchain is the same as Bitcoin.',
+                         choices: [
+                             'True',
+                             'False',
+                             'I don\'t know'
+                         ],
+                         shuffleChoices: false
+                         // correctChoice: 1
+                     },
+                     {
+                         id: 'quiz3',
+                         mainText: 'What does the block in a blockchain consist of?',
+                         choices: [
+                             'Transaction data',
+                             'A hash point',
+                             'A timestamp',
+                             'Transaction data, a hash point and a timestamp',
+                             'I don\'t know'
+                         ],
+                         shuffleChoices: false
+                         // correctChoice: 3
+                     },
+                     {
+                         id: 'quiz7',
+                         mainText: 'What is a miner?',
+                         choices: [
+                             'A type of blockchain',
+                             'An algorithm that predicts the next part of the chain',
+                             'A person doing calculations to verify a transaction',
+                             'Computers that validate and process blockchain transactions',
+                             'I don\'t know'
+                         ],
+                         // correctChoice: 3
+                     },
 /** */
 
 
